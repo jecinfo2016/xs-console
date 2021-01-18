@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="448px" height="377px" viewBox="0 0 448 377" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="99.4114231%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#00052F" offset="0%"></stop>
+            <stop stop-color="#00052F" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1.98639477,2.43300742 L355.210108,0.000206564755 C356.314651,-0.00740089133 357.216228,0.88184131 357.223835,1.98638461 C357.223854,1.98912036 357.223867,1.99185615 357.223875,1.99459196 L358.000345,280.939525 C358.003401,282.037325 357.120991,282.932388 356.023259,282.944961 L2.02290727,286.999603 C0.918410214,287.012254 0.012783053,286.127137 0.000132388069,285.02264 C4.49334512e-05,285.015005 1.20735377e-06,285.007369 1.21192818e-06,284.999733 L0.000169289001,4.43295878 C0.000169947487,3.33376525 0.887227307,2.44057785 1.98639477,2.43300742 Z" id="path-2"></path>
+        <filter x="-18.3%" y="-22.8%" width="138.8%" height="148.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="7.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="4" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0509803922   0 0 0 0 0.647058824   0 0 0 0 1  0 0 0 0.243307474 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="100%" y1="41.6311553%" x2="0%" y2="41.6311553%" id="linearGradient-4">
+            <stop stop-color="#0C96FE" stop-opacity="0.0190941871" offset="0%"></stop>
+            <stop stop-color="#0C96FE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="大屏告警-加压泵站-点击" transform="translate(-727.000000, -296.000000)">
+            <g id="编组-8" transform="translate(767.000000, 336.000000)">
+                <g id="编组-31备份">
+                    <g id="bg">
+                        <g id="编组-18" transform="translate(1.000000, 1.000000)" opacity="0.903552827">
+                            <g id="形状结合">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            </g>
+                        </g>
+                        <polyline id="路径-12" stroke="#0C96FE" stroke-width="2" points="49.8249504 2 0.824950355 2 2 288"></polyline>
+                        <polyline id="路径-13" fill="#0C96FE" points="229 2.85710129 272.18457 2.85710129 270.047852 -3.01592085e-13 358.191406 -1.50796042e-13 358.380305 5.30566406 230 5.30566406"></polyline>
+                        <polyline id="路径-13备份" fill="#0C96FE" transform="translate(66.353516, 285.652832) scale(-1, 1) translate(-66.353516, -285.652832) " points="1 285.857101 44.1845703 285.857101 42.0478516 283 130.191406 283 131.707031 288.305664 2 288.305664"></polyline>
+                        <polygon id="矩形" stroke-opacity="0.25" stroke="#2486B6" fill="url(#linearGradient-4)" points="0.61328125 5 121.681641 5 121.5 40.2359 -1.05541999e-16 41"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
